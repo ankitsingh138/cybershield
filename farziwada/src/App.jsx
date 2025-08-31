@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 import Background from './components/Background';
 import AuthModal from './components/AuthModal';
+import AboutSection from './components/AboutSection';
 import SectionGetStarted from './components/SectionGetStarted';
 import Dashboard from './components/Dashboard';
 import Analytics from './components/Analytics';
@@ -56,6 +57,9 @@ function App() {
           <main>
             {/* Hero Section */}
             <Hero onGetStartedClick={handleGetStartedClick} />
+            
+            {/* About Section */}
+            <AboutSection />
             
             {/* Get Started Section */}
             <SectionGetStarted />
