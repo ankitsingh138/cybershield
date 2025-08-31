@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import NavBar from './components/NavBar';
-import Hero from './components/Hero';
-import Background from './components/Background';
-import AuthModal from './components/AuthModal';
+import NavBar from './components/navbar/NavBar';
+import Hero from './components/Home/Hero';
+import Background from './components/Home/Background';
+import AuthModal from './components/Home/AuthModal';
 import AboutSection from './components/AboutSection';
-import SectionGetStarted from './components/SectionGetStarted';
+import SectionGetStarted from './components/Home/SectionGetStarted';
 import Dashboard from './components/Dashboard';
 import Analytics from './components/Analytics';
 import FraudAlerts from './components/FraudAlerts';
